@@ -109,35 +109,36 @@ const ModulateScalar = () => {
             </option>
           ))}
         </select>
-        {/*<label htmlFor="slideT"> &nbsp; tMax</label>*/}
-        {/*<input*/}
-        {/*  type="range"*/}
-        {/*  min="1"*/}
-        {/*  max="50"*/}
-        {/*  value="45"*/}
-        {/*  className="slider"*/}
-        {/*  id="slideT"*/}
-        {/*/>*/}
-        {/*<label htmlFor="slideC"> &nbsp; cMax</label>*/}
-        {/*<input*/}
-        {/*  type="range"*/}
-        {/*  min="1"*/}
-        {/*  max="200"*/}
-        {/*  value="100"*/}
-        {/*  className="slider"*/}
-        {/*  id="slideC"*/}
-        {/*/>*/}
-        {/*<label htmlFor="slide2"> &nbsp; Outline</label>*/}
-        {/*<input*/}
-        {/*  type="range"*/}
-        {/*  min="0"*/}
-        {/*  max="4"*/}
-        {/*  value="1"*/}
-        {/*  className="slider"*/}
-        {/*  id="slide2"*/}
-        {/*/>*/}
-        {/*<label htmlFor="check">ClipDark</label>*/}
-        {/*<input type="checkbox" id="check" unchecked />*/}
+        <label htmlFor="slideT"> &nbsp; tMax</label>
+<input
+  type="range"
+  min="1"
+  max="50"
+  value="45"
+  className="slider"
+  id="slideT"
+/>
+<label htmlFor="slideC"> &nbsp; cMax</label>
+<input
+  type="range"
+  min="1"
+  max="200"
+  value="100"
+  className="slider"
+  id="slideC"
+/>
+<label htmlFor="slide2"> &nbsp; Outline</label>
+<input
+  type="range"
+  min="0"
+  max="4"
+  value="1"
+  className="slider"
+  id="slide2"
+/>
+<label htmlFor="check">ClipDark</label>
+<input type="checkbox" id="check" unchecked />
+
         <label>
           ModulateAlpha
           <input
